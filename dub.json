@@ -1,0 +1,22 @@
+{
+	"description": "A minimal D application.",
+	"license": "MIT",
+	"authors": [
+		"Charles Gregory"
+	],
+	"copyright": "Copyright © 2019, Charles Gregory",
+	"name": "dksw2",
+	"sourceFiles": [
+		"ksw2/kalloc.o",
+		"ksw2/ksw2_extd.o",
+		"ksw2/ksw2_extd2_sse.o",
+		"ksw2/ksw2_extf2_sse.o",
+		"ksw2/ksw2_exts2_sse.o",
+		"ksw2/ksw2_extz.o",
+		"ksw2/ksw2_extz2_sse.o",
+		"ksw2/ksw2_gg.o",
+		"ksw2/ksw2_gg2_sse.o",
+		"ksw2/ksw2_gg2.o"	
+	],
+	"preBuildCommands": ["cd ksw2;make"]
+}
