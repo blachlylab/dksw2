@@ -18,5 +18,5 @@
 		"ksw2/ksw2_gg2_sse.o",
 		"ksw2/ksw2_gg2.o"	
 	],
-	"preBuildCommands": ["cd ksw2;make"]
+	"preBuildCommands-posix":["cd $PACKAGE_DIR/ksw2;make"]
 }
